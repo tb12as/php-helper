@@ -1,1 +1,0 @@
-{"version":1,"defects":{"StrTest::testStrContains":3,"StrTest::testStrContainsFail":3,"StrTest::testStrWord":3},"times":{"StrTest::testStrContains":0.002,"StrTest::testStrContainsFail":0,"StrTest::testStrWord":0}}
