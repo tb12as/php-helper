@@ -25,4 +25,9 @@ final class StrTest extends TestCase
     	$w = Str::words($str, 3);
     	$this->assertSame($w, "syafiq afifuddin adalah");
     }
+
+    public function testStrWordEmptyString()
+    {
+    	$this->assertSame(Str::words(''), null);
+    }
 }
