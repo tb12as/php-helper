@@ -1,0 +1,22 @@
+{
+    "name": "tb12as/php-helper",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tb12as\\PhpHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Syafiq Afifuddin",
+            "email": "syafiqafifuddin59@gmail.com"
+        }
+    ],
+    "scripts": {
+        "test": "./vendor/bin/phpunit tests/ --colors=always"
+    },
+    "require": {}
+}
